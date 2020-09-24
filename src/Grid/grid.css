@@ -7,6 +7,13 @@
   justify-content: center;
 }
 
+.changer-color {
+  padding-bottom: 10px;
+  border: 3px black;
+  height: 80px;
+  width: 100%;
+  color: white;
+}
 .square-color {
   border-radius: 5px;
   margin: 10px;
@@ -16,11 +23,4 @@
 }
 .square-color:hover {
   cursor: pointer;
-}
-
-.changer-color {
-  padding-bottom: 10px;
-  border: 3px black;
-  height: 80px;
-  width: 100%;
 }

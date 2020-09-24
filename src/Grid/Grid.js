@@ -6,17 +6,21 @@ class Grid extends React.Component {
     super();
     this.state = {
       backgroundStyle: {},
+      hexCOde: "",
     };
   }
   onHandleClick = (e) => {
     this.setState({
       backgroundStyle: { backgroundColor: e.target.style.backgroundColor },
+      hexCOde: e.target.style.backgroundColor,
     });
   };
   render() {
     return (
       <div>
-        <div className="changer-color" style={this.state.backgroundStyle}></div>
+        <div className="changer-color" style={this.state.backgroundStyle}>
+          {this.state.hexCOde}
+        </div>
         <div className="group-colored-squares">
           <div
             className="square-color"
