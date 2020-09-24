@@ -1,0 +1,26 @@
+.group-colored-squares {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-color {
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #123;
+  height: 100px;
+  width: 100px;
+}
+.square-color:hover {
+  cursor: pointer;
+}
+
+.changer-color {
+  padding-bottom: 10px;
+  border: 3px black;
+  height: 80px;
+  width: 100%;
+}
